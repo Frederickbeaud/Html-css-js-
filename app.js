@@ -31,7 +31,7 @@ function moveSlider(direction){
         if(direction === 'next'){
             slider.classList.remove('next')
         }else{
-            slider.classList.remove('prev')
+            slider.classList.remove('prev'
         }
     },{once:true}) //Remove l event apres ecoute d' une fois
 }
